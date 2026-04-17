@@ -1,0 +1,1130 @@
+================================================================================
+        WHAT EACH PROGRAM DOES - WEEK 1, 2, 3, 4
+        Complete Guide to All 33 Programs
+================================================================================
+
+This document explains in simple terms what each program does and its purpose.
+
+================================================================================
+                              WEEK 1 PROGRAMS
+================================================================================
+
+WEEK 1 - QUESTION 2: ARITHMETIC OPERATIONS
+================================================================================
+WHAT THIS CODE DOES:
+This program takes TWO numbers from you and performs FIVE basic math operations
+on them. It then shows you all the results in a nice format.
+
+PURPOSE:
+- Learn how to take input from users
+- Learn basic arithmetic operators
+- Learn how to display formatted output
+- Understand how programs work with numbers
+
+HOW IT WORKS:
+1. Ask user to enter first number
+2. Ask user to enter second number
+3. Do 5 calculations: add, multiply, divide, remainder, power
+4. Show all answers nicely
+
+EXAMPLE:
+Input: 10 and 3
+Output: 10+3=13, 10×3=30, 10÷3=3.33, 10%3=1, 10^3=1000
+
+REAL-WORLD USE:
+Calculator apps, banking software, engineering tools
+
+================================================================================
+
+WEEK 1 - QUESTION 3: POSITIVE/NEGATIVE & EVEN/ODD CHECKER
+================================================================================
+WHAT THIS CODE DOES:
+This program checks ONE number and tells you:
+- Is it positive (>0) or negative (<0)?
+- Is it even (divisible by 2) or odd?
+- Combines both answers
+
+PURPOSE:
+- Learn if/else statements (decision making)
+- Learn how to check conditions
+- Learn how to combine multiple conditions
+- Understand logic in programming
+
+HOW IT WORKS:
+1. Take one number as input
+2. Check: Is it positive or negative?
+3. Check: Is it even or odd?
+4. Give final classification
+
+EXAMPLE:
+Input: 15
+Output: Positive Odd
+
+Input: -8
+Output: Negative Even
+
+REAL-WORLD USE:
+Sorting systems, filtering data, banking (debit/credit), games
+
+================================================================================
+
+WEEK 1 - QUESTION 4: CUBE, CUBE ROOT, LOGARITHMS
+================================================================================
+WHAT THIS CODE DOES:
+This program takes ONE number and calculates 5 different mathematical operations:
+1. Cube of the number (number³)
+2. Cube root of the number
+3. Natural logarithm (ln)
+4. Base-2 logarithm
+5. Power of 6
+
+PURPOSE:
+- Learn how to use math library
+- Learn advanced mathematical functions
+- Learn exponentiation and roots
+- Understand logarithms
+
+HOW IT WORKS:
+1. Take one number
+2. Calculate cube: number × number × number
+3. Calculate cube root
+4. Calculate natural log
+5. Calculate base-2 log
+6. Calculate power of 6
+7. Show all results
+
+EXAMPLE:
+Input: 8
+Output: Cube=512, Cube Root=2, ln(8)=2.08, log₂(8)=3, 8^6=262144
+
+REAL-WORLD USE:
+Scientific calculations, engineering, physics simulations, data analysis
+
+================================================================================
+
+WEEK 1 - QUESTION 5: MARKS & GRADE CALCULATOR
+================================================================================
+WHAT THIS CODE DOES:
+This program takes MARKS from 6 subjects and:
+1. Calculates total marks
+2. Calculates average
+3. Calculates percentage
+4. Assigns a GRADE based on percentage
+
+PURPOSE:
+- Learn to work with lists
+- Learn to calculate averages
+- Learn if/elif/else (multiple choices)
+- Understand how school grading works
+
+HOW IT WORKS:
+1. Ask for marks of 6 subjects
+2. Add all marks to get total
+3. Divide total by 6 for average
+4. Divide total by 600 for percentage
+5. Check percentage and assign grade:
+   - 85% or above: Distinction
+   - 70% or above: First Division
+   - 55% or above: Second Division
+   - 45% or above: Third Division
+   - Below 45%: Fail
+
+EXAMPLE:
+Input: 85, 90, 88, 92, 85, 90 (total=530, percentage=88.33%)
+Output: Grade = Distinction
+
+REAL-WORLD USE:
+School grading systems, university portals, educational apps
+
+================================================================================
+
+WEEK 1 - QUESTION 6: PRIME NUMBERS IN RANGE
+================================================================================
+WHAT THIS CODE DOES:
+This program finds ALL PRIME NUMBERS in a range you specify.
+Then it tells you:
+1. List of all prime numbers
+2. How many prime numbers exist
+3. Sum of all prime numbers
+
+PURPOSE:
+- Learn how to create functions
+- Learn how to check if a number is prime
+- Learn how to work with ranges
+- Understand mathematical properties
+
+HOW IT WORKS:
+1. Ask user for start and end of range
+2. For each number in range:
+   - Check if it's prime (only divisible by 1 and itself)
+   - If prime, add to list
+3. Count how many primes found
+4. Add all primes together
+5. Display results
+
+EXAMPLE:
+Input: 10 to 30
+Output: 
+  Primes: [11, 13, 17, 19, 23, 29]
+  Count: 6
+  Sum: 112
+
+REAL-WORLD USE:
+Cryptography, number theory, mathematics education
+
+================================================================================
+
+WEEK 1 - QUESTION 7: DIVISIBLE BY 9 BUT NOT 6
+================================================================================
+WHAT THIS CODE DOES:
+This program finds all NUMBERS that:
+1. Are divisible by 9 (divides evenly)
+2. But NOT divisible by 6 (doesn't divide evenly)
+
+The user can use default range (1000-2500) or set custom range.
+
+PURPOSE:
+- Learn how to use modulo operator (%)
+- Learn to check multiple conditions with AND logic
+- Learn how to let users customize input
+- Understand compound conditions
+
+HOW IT WORKS:
+1. Ask: Use default range or custom?
+2. If custom, get start and end numbers
+3. Check each number:
+   - Is it divisible by 9? (number % 9 == 0)
+   - Is it NOT divisible by 6? (number % 6 != 0)
+   - If BOTH true, add to list
+4. Display results and count
+
+EXAMPLE:
+Input: Default range (1000-2500)
+Output: Numbers: [1017, 1035, 1053, ...], Count: 56
+
+REAL-WORLD USE:
+Data filtering, pattern recognition, number analysis
+
+================================================================================
+
+WEEK 1 - QUESTION 8: FACTORIAL CALCULATOR
+================================================================================
+WHAT THIS CODE DOES:
+This program calculates the FACTORIAL of a number.
+Factorial of n (written as n!) means: n × (n-1) × (n-2) × ... × 1
+
+PURPOSE:
+- Learn how to validate user input
+- Learn exception handling (try-except)
+- Learn how to handle errors gracefully
+- Understand recursive calculations
+
+HOW IT WORKS:
+1. Ask user for a number
+2. Check if it's valid (positive integer)
+3. If not valid, show error
+4. If valid, calculate factorial:
+   - 5! = 5 × 4 × 3 × 2 × 1 = 120
+5. Show result
+
+EXAMPLE:
+Input: 5
+Output: 5! = 120
+
+Input: -3 (negative)
+Output: Invalid input! Please enter a positive integer.
+
+REAL-WORLD USE:
+Permutations, combinations, probability calculations, mathematics
+
+================================================================================
+
+WEEK 1 - QUESTION 9: MENU-DRIVEN POS/NEG SUM
+================================================================================
+WHAT THIS CODE DOES:
+This program lets users enter MANY numbers one by one.
+Then it keeps track of:
+1. Sum of all POSITIVE numbers
+2. Sum of all NEGATIVE numbers
+
+Users can:
+- Add numbers
+- View current sums
+- Exit when done
+
+PURPOSE:
+- Learn while loops (continuous programs)
+- Learn menu systems
+- Learn how to accumulate values
+- Learn state management
+
+HOW IT WORKS:
+1. Show menu with 3 options
+2. Loop forever until user exits:
+   - Option 1: Ask for a number, classify as pos/neg, add to sum
+   - Option 2: Show current sums
+   - Option 3: Exit and show final results
+
+EXAMPLE:
+Add: 10 (positive_sum = 10)
+Add: -5 (negative_sum = -5)
+Add: 20 (positive_sum = 30)
+View: Positive Sum: 30, Negative Sum: -5
+Exit: Final results shown
+
+REAL-WORLD USE:
+Bank transactions, accounting software, data collection apps
+
+================================================================================
+
+WEEK 1 - QUESTION 10: NUMBER GUESSING GAME
+================================================================================
+WHAT THIS CODE DOES:
+This program plays a GUESSING GAME with you:
+1. Computer picks a random number (1-50)
+2. You try to guess it
+3. Computer tells if your guess is too high, too low, or correct
+4. You get maximum 7 attempts
+5. Game ends when you guess right or attempts run out
+
+PURPOSE:
+- Learn random number generation
+- Learn game loops
+- Learn feedback systems
+- Have fun with programming!
+
+HOW IT WORKS:
+1. Generate random number 1-50
+2. Loop up to 7 times:
+   - Ask user for guess
+   - If correct: Celebrate and end
+   - If too low: Tell "too low"
+   - If too high: Tell "too high"
+   - Count attempts
+3. If 7 attempts used: Show "Better luck next time"
+
+EXAMPLE:
+Secret: 27
+Guess 1: 30 → Too high!
+Guess 2: 25 → Too low!
+Guess 3: 27 → Correct! You won in 3 attempts!
+
+REAL-WORLD USE:
+Games, entertainment, learning programming
+
+================================================================================
+                              WEEK 2 PROGRAMS
+================================================================================
+
+WEEK 2 - QUESTION 1: ARITHMETIC FUNCTIONS
+================================================================================
+WHAT THIS CODE DOES:
+This program creates a FUNCTION that takes 2 numbers and:
+1. Adds them
+2. Subtracts them
+3. Multiplies them
+4. Divides them
+
+Then returns ALL 4 results at once.
+
+PURPOSE:
+- Learn how to create functions
+- Learn function parameters
+- Learn function return values
+- Learn code reusability
+
+HOW IT WORKS:
+1. Create function with 2 parameters
+2. Calculate all 4 operations inside function
+3. Return all 4 results
+4. Main program calls function
+5. Display results
+
+EXAMPLE:
+Function called with 10, 5:
+Sum=15, Difference=5, Product=50, Quotient=2
+
+REAL-WORLD USE:
+Calculator libraries, math modules, scientific software
+
+================================================================================
+
+WEEK 2 - QUESTION 2: MATHEMATICAL FUNCTIONS
+================================================================================
+WHAT THIS CODE DOES:
+Creates 5 SEPARATE FUNCTIONS, each doing ONE operation:
+1. add() - adds two numbers
+2. multiply() - multiplies two numbers
+3. divide() - divides two numbers
+4. floor_divide() - divides and rounds down
+5. power() - raises to power
+
+PURPOSE:
+- Learn modular programming
+- Each function has ONE job
+- Easy to test and reuse
+- Better code organization
+
+HOW IT WORKS:
+1. Define 5 separate functions
+2. Each takes 2 parameters
+3. Each does one operation
+4. Main program calls all 5
+5. Display all results
+
+EXAMPLE:
+With inputs 12, 4:
+add(12,4)=16, multiply(12,4)=48, divide(12,4)=3, power(12,4)=20736
+
+REAL-WORLD USE:
+Math libraries, scientific computing, API design
+
+================================================================================
+
+WEEK 2 - QUESTION 3: ARMSTRONG NUMBER CHECKER
+================================================================================
+WHAT THIS CODE DOES:
+This program checks if a number is an ARMSTRONG NUMBER.
+
+Armstrong Number = Sum of digits raised to power of digit count equals the number
+Example: 153 = 1³ + 5³ + 3³ = 1 + 125 + 27 = 153 ✓
+
+PURPOSE:
+- Learn string to number conversion
+- Learn list comprehension
+- Learn mathematical validation
+- Understand special numbers
+
+HOW IT WORKS:
+1. Take number as input
+2. Count digits
+3. Raise each digit to power of digit count
+4. Sum all these powers
+5. Check if sum equals original number
+6. Show result
+
+EXAMPLE:
+Input: 153
+Check: 1³ + 5³ + 3³ = 1 + 125 + 27 = 153
+Output: YES, it's Armstrong
+
+Input: 123
+Check: 1³ + 2³ + 3³ = 1 + 8 + 27 = 36 ≠ 123
+Output: NO, it's not Armstrong
+
+REAL-WORLD USE:
+Number theory, mathematics education, recreational programming
+
+================================================================================
+
+WEEK 2 - QUESTION 4: COUNT OCCURRENCES IN LIST
+================================================================================
+WHAT THIS CODE DOES:
+This program takes a LIST of numbers and:
+1. Counts how many times each number appears
+2. Returns a DICTIONARY showing the count for each number
+
+PURPOSE:
+- Learn dictionaries
+- Learn how to count items
+- Learn frequency analysis
+- Understand data analysis basics
+
+HOW IT WORKS:
+1. Create empty dictionary
+2. For each number in list:
+   - If number exists in dictionary: add 1 to count
+   - If new number: add to dictionary with count 1
+3. Return dictionary
+4. Display nicely
+
+EXAMPLE:
+Input: [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+Output: {1: 1, 2: 2, 3: 3, 4: 4}
+(1 appears 1 time, 2 appears 2 times, etc.)
+
+REAL-WORLD USE:
+Word frequency analysis, data statistics, survey analysis
+
+================================================================================
+
+WEEK 2 - QUESTION 5: SORT STUDENT NAMES
+================================================================================
+WHAT THIS CODE DOES:
+This program takes a LIST of student NAMES and:
+1. Sorts them in REVERSE alphabetical order (Z to A)
+2. Shows original and sorted order
+
+PURPOSE:
+- Learn sorting functions
+- Learn how to reverse sort
+- Learn list operations
+- Understand alphabetical ordering
+
+HOW IT WORKS:
+1. Get number of students
+2. Get each student name
+3. Use sorted(names, reverse=True) to sort Z to A
+4. Display both original and sorted lists
+
+EXAMPLE:
+Input: Alice, Bob, Charlie, David, Emma
+Output Original: Alice, Bob, Charlie, David, Emma
+Output Sorted (Z→A): Emma, David, Charlie, Bob, Alice
+
+REAL-WORLD USE:
+Directory listings, ranking systems, sorted displays
+
+================================================================================
+
+WEEK 2 - QUESTION 6: COUNTRY SEARCH FUNCTION
+================================================================================
+WHAT THIS CODE DOES:
+This program searches for a COUNTRY NAME in a list and:
+1. Returns the POSITION if found
+2. Returns "Not Found" if not in list
+
+PURPOSE:
+- Learn search algorithms
+- Learn enumerate() function
+- Learn return types
+- Understand search functionality
+
+HOW IT WORKS:
+1. Have a list of countries
+2. Ask user for country to search
+3. Loop through list with index:
+   - If country matches: return index
+   - If not found: return "Not Found"
+4. Display result
+
+EXAMPLE:
+Countries: [USA, India, Canada, Australia, Japan, Germany, France]
+Search: "India"
+Output: Found at index 1 (Position 2)
+
+Search: "Brazil"
+Output: Not Found in List
+
+REAL-WORLD USE:
+Database searches, autocomplete, validation systems
+
+================================================================================
+
+WEEK 2 - QUESTION 7: CHARACTER FREQUENCY COUNTER
+================================================================================
+WHAT THIS CODE DOES:
+Takes a SENTENCE and:
+1. Counts how many times EACH CHARACTER appears
+2. Ignores spaces
+3. Returns dictionary with character counts
+
+PURPOSE:
+- Learn character iteration
+- Learn frequency counting
+- Learn text analysis
+- Understand dictionary usage
+
+HOW IT WORKS:
+1. Take sentence as input
+2. For each character (except space):
+   - Count how many times it appears
+   - Store in dictionary
+3. Display results sorted
+
+EXAMPLE:
+Input: "hello world"
+Output:
+  h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1
+
+REAL-WORLD USE:
+Text analysis, cryptography, linguistic analysis, spell checkers
+
+================================================================================
+
+WEEK 2 - QUESTION 8: REMOVE DUPLICATES & SORT
+================================================================================
+WHAT THIS CODE DOES:
+Takes a LIST of NUMBERS with duplicates and:
+1. REMOVES all duplicate values
+2. SORTS remaining numbers in ascending order (small to big)
+3. Shows original list and cleaned list
+
+PURPOSE:
+- Learn set operations
+- Learn sorting
+- Learn data cleaning
+- Understand duplicate removal
+
+HOW IT WORKS:
+1. Get list from user
+2. Convert to SET to remove duplicates automatically
+3. Convert back to LIST
+4. Sort in ascending order
+5. Display original and result
+
+EXAMPLE:
+Input: [5, 2, 8, 2, 9, 5, 1]
+After removing duplicates: [5, 2, 8, 9, 1]
+After sorting: [1, 2, 5, 8, 9]
+Duplicates removed: 2
+
+REAL-WORLD USE:
+Data cleaning, database deduplication, spreadsheet operations
+
+================================================================================
+
+WEEK 2 - QUESTION 9: MOVIE DICTIONARY STORAGE
+================================================================================
+WHAT THIS CODE DOES:
+Stores information about 3 MOVIES in a NESTED DICTIONARY:
+1. Movie title (key)
+2. Director, year, rating (nested info)
+3. Displays all in formatted way
+
+PURPOSE:
+- Learn nested dictionaries
+- Learn structured data storage
+- Learn data organization
+- Understand real-world data structures
+
+HOW IT WORKS:
+1. Create dictionary
+2. For each of 3 movies:
+   - Get title, director, year, rating
+   - Store as: movies[title] = {director, year, rating}
+3. Display all movies nicely
+
+EXAMPLE:
+Movie: Inception
+  Director: Christopher Nolan
+  Year: 2010
+  Rating: 8.8/10
+
+REAL-WORLD USE:
+Movie databases, IMDb, Netflix, entertainment apps
+
+================================================================================
+
+WEEK 2 - QUESTION 10: DICE GUESSING GAME
+================================================================================
+WHAT THIS CODE DOES:
+A dice game where:
+1. Computer rolls a dice (random 1-6)
+2. You guess the number
+3. Computer shows feedback with emojis:
+   - 😊 if correct
+   - 😐 if off by 1
+   - 😢 if completely wrong
+
+PURPOSE:
+- Learn game feedback
+- Learn emoji/visual feedback
+- Learn different outcomes
+- Have fun!
+
+HOW IT WORKS:
+1. Generate random number 1-6
+2. Get user's guess
+3. Compare:
+   - If same: show smiling face
+   - If difference is 1: show neutral face
+   - Otherwise: show sad face
+4. Display result
+
+EXAMPLE:
+Dice: 5, Guess: 5 → 😊 Correct!
+Dice: 5, Guess: 4 → 😐 Off by 1!
+Dice: 5, Guess: 1 → 😢 Wrong!
+
+REAL-WORLD USE:
+Games, learning, entertainment
+
+================================================================================
+                              WEEK 3 PROGRAMS
+================================================================================
+
+WEEK 3 - QUESTION 1: READ CSV FILE
+================================================================================
+WHAT THIS CODE DOES:
+Reads a CSV FILE (records.csv) and DISPLAYS all student records in a table format.
+
+PURPOSE:
+- Learn file handling
+- Learn CSV file format
+- Learn data display
+- Understand file input
+
+HOW IT WORKS:
+1. Check if records.csv exists
+2. Open file
+3. Read each row
+4. Display in formatted table:
+   Name | Roll No | Program | Year | Group
+
+EXAMPLE:
+File has:
+  Suresh, 101, B.Tech, 2, A
+  Jenish, 102, B.Tech, 2, A
+Output: Formatted table with all students
+
+REAL-WORLD USE:
+Data viewing, reporting, database displays
+
+================================================================================
+
+WEEK 3 - QUESTION 2: APPEND TO CSV FILE
+================================================================================
+WHAT THIS CODE DOES:
+Adds NEW STUDENT RECORDS to records.csv file:
+1. Gets student details from user
+2. Appends to CSV file
+3. Creates file if doesn't exist
+4. Can add multiple students
+
+PURPOSE:
+- Learn file writing
+- Learn appending data
+- Learn data persistence
+- Understand file updates
+
+HOW IT WORKS:
+1. Check if file exists; create if not
+2. Loop to add students:
+   - Get name, roll no, program, year, group
+   - Append to file
+   - Ask if want to add more
+3. Save data
+
+EXAMPLE:
+Input student: Suresh, 101, B.Tech, 2, A
+File updated with new record
+
+REAL-WORLD USE:
+Database entry, registration systems, data collection
+
+================================================================================
+
+WEEK 3 - QUESTION 3: ARITHMETIC WITH FILE SAVING
+================================================================================
+WHAT THIS CODE DOES:
+Performs arithmetic operations and:
+1. Saves results to a file with DATE & TIME
+2. Allows multiple operations in one session
+3. Shows all saved results at end
+
+PURPOSE:
+- Learn file writing
+- Learn timestamps
+- Learn session management
+- Understand logging
+
+HOW IT WORKS:
+1. Open file for writing
+2. Write current date/time
+3. Loop:
+   - Get two numbers
+   - Perform add, subtract, multiply, divide
+   - Write results to file
+   - Ask if want more operations
+4. Display entire file contents
+
+EXAMPLE:
+Operation 1: 10 + 5 = 15
+Operation 2: 20 - 3 = 17
+File saved with timestamp
+
+REAL-WORLD USE:
+Logging systems, calculation history, audit trails
+
+================================================================================
+
+WEEK 3 - QUESTION 4: COPY FILE WITH EXCEPTION
+================================================================================
+WHAT THIS CODE DOES:
+Copies content from ONE FILE to ANOTHER with:
+1. Error checking (does input file exist?)
+2. Overwrite protection (does output exist already?)
+3. Shows file statistics
+
+PURPOSE:
+- Learn file copying
+- Learn exception handling
+- Learn error prevention
+- Understand file operations
+
+HOW IT WORKS:
+1. Get input file name
+2. Check if it exists (error if not)
+3. Get output file name
+4. Check if it exists (ask to overwrite?)
+5. Copy contents
+6. Show success message and file stats
+
+EXAMPLE:
+Input: document.txt → Output: backup.txt
+Result: File copied successfully!
+
+REAL-WORLD USE:
+Backup systems, file copying, data management
+
+================================================================================
+
+WEEK 3 - QUESTION 5: LEARNER CLASS
+================================================================================
+WHAT THIS CODE DOES:
+Creates a LEARNER CLASS to store student information:
+1. Roll number
+2. Full name
+3. Address
+4. Enrollment year
+5. Program
+6. Group
+
+PURPOSE:
+- Learn OOP (Object-Oriented Programming)
+- Learn class definition
+- Learn object creation
+- Understand data encapsulation
+
+HOW IT WORKS:
+1. Define Learner class with attributes
+2. Create methods to take input
+3. Create methods to display data
+4. Create object of Learner
+5. Input data
+6. Display results
+
+EXAMPLE:
+Create learner object → Input details → Display formatted output
+
+REAL-WORLD USE:
+Student management systems, enrollment apps, educational software
+
+================================================================================
+
+WEEK 3 - QUESTION 6: COOKBOOK CLASS
+================================================================================
+WHAT THIS CODE DOES:
+Creates a COOKBOOK SYSTEM with:
+1. DISH CLASS: stores dish details (id, name, ingredients, instructions)
+2. COOKBOOK CLASS: manages collection of dishes
+   - Add dishes
+   - Remove dishes
+   - Search for dishes
+   - Display all
+
+PURPOSE:
+- Learn multiple classes
+- Learn class relationships
+- Learn menu systems
+- Understand data management
+
+HOW IT WORKS:
+1. Create Dish class
+2. Create Cookbook class with list of dishes
+3. Pre-add 3 sample dishes
+4. User can search for dishes
+5. Display dish details
+
+EXAMPLE:
+Search for dish 2 → Shows Pizza details with ingredients & instructions
+
+REAL-WORLD USE:
+Recipe apps, cooking apps, restaurant menus
+
+================================================================================
+
+WEEK 3 - QUESTION 7: STAFF MANAGEMENT SYSTEM
+================================================================================
+WHAT THIS CODE DOES:
+Complete STAFF MANAGEMENT system that:
+1. Stores staff info in CSV file
+2. Allows adding staff members
+3. Allows viewing all staff
+4. Allows searching by ID
+5. Uses menu interface
+
+PURPOSE:
+- Learn complete system design
+- Learn file + OOP combination
+- Learn menu-driven apps
+- Understand data persistence
+
+HOW IT WORKS:
+1. Create Staff class with attributes
+2. Create StaffManagement class to handle operations
+3. Menu shows 4 options:
+   - Add staff
+   - View all
+   - Search by ID
+   - Exit
+4. Data saved to CSV file
+
+EXAMPLE:
+Add staff: ID=1001, Name=Raj, Salary=50000
+View all: Shows all staff in table
+Search: Find by ID and display details
+
+REAL-WORLD USE:
+HR systems, payroll software, employee management
+
+================================================================================
+
+WEEK 3 - QUESTION 8: LIBRARY MANAGEMENT SYSTEM
+================================================================================
+WHAT THIS CODE DOES:
+Complete LIBRARY SYSTEM with:
+1. Add books
+2. Borrow books (track availability)
+3. Return books
+4. Search for books
+5. View all books
+6. Track borrow/return history
+
+PURPOSE:
+- Learn large-scale OOP design
+- Learn inventory management
+- Learn transaction tracking
+- Understand complete systems
+
+HOW IT WORKS:
+1. Create Book class
+2. Create Library class
+3. Load books from CSV
+4. Menu with 5 options:
+   - Borrow book
+   - Return book
+   - Search book
+   - View all books
+   - Exit
+5. Track copies and borrowing dates
+
+EXAMPLE:
+Borrow: Book ID 1132 (Python) → Available copies reduced
+Return: Return book → Available copies increased
+
+REAL-WORLD USE:
+Library management, book lending apps, inventory systems
+
+================================================================================
+                              WEEK 4 PROGRAMS
+================================================================================
+
+WEEK 4 - QUESTION 1: NUMPY ARRAY OPERATIONS
+================================================================================
+WHAT THIS CODE DOES:
+Performs CALCULATIONS on ARRAYS using NumPy:
+1. Find total SUM of all elements
+2. Find AVERAGE (mean)
+3. Find LARGEST number
+4. Find SMALLEST number
+
+PURPOSE:
+- Learn NumPy library
+- Learn array operations
+- Learn statistical calculations
+- Understand numerical computing
+
+HOW IT WORKS:
+1. Create array with numbers
+2. Use np.sum() for total
+3. Use np.mean() for average
+4. Use np.max() for largest
+5. Use np.min() for smallest
+6. Display all results
+
+EXAMPLE:
+Array: [10, 20, 30, 40, 50]
+Sum: 150
+Mean: 30
+Max: 50
+Min: 10
+
+REAL-WORLD USE:
+Data analysis, statistics, scientific computing
+
+================================================================================
+
+WEEK 4 - QUESTION 2: SORTING & SLICING
+================================================================================
+WHAT THIS CODE DOES:
+Takes user's list of numbers (12+ items) and:
+1. SORTS them in ascending order
+2. EXTRACTS slices (portions) of the sorted list
+
+PURPOSE:
+- Learn NumPy sorting
+- Learn array slicing
+- Learn index ranges
+- Understand data extraction
+
+HOW IT WORKS:
+1. Get 12+ numbers from user
+2. Convert to NumPy array
+3. Sort using np.sort()
+4. Slice specific ranges:
+   - Items 3-6
+   - Items 6-9
+   - Items 4-10
+5. Display all results
+
+EXAMPLE:
+Sorted: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Slice 3-6: [4, 5, 6, 7]
+Slice 6-9: [7, 8, 9, 10]
+
+REAL-WORLD USE:
+Data filtering, ranking systems, data extraction
+
+================================================================================
+
+WEEK 4 - QUESTION 3: RANDOM ARRAY & RESHAPING
+================================================================================
+WHAT THIS CODE DOES:
+Creates RANDOM array and:
+1. Generates 12 random integers
+2. Sorts them
+3. RESHAPES into different matrix sizes:
+   - 3×4 matrix
+   - 4×3 matrix
+
+PURPOSE:
+- Learn random generation
+- Learn array reshaping
+- Learn matrix creation
+- Understand data organization
+
+HOW IT WORKS:
+1. Generate 12 random numbers (1-100)
+2. Sort the array
+3. Reshape to 3 rows, 4 columns
+4. Reshape to 4 rows, 3 columns
+5. Display both matrices
+
+EXAMPLE:
+Random array: [45, 23, 78, 12, 89, 34, 56, 90, 21, 67, 44, 33]
+Sorted: [12, 21, 23, 33, 34, 44, 45, 56, 67, 78, 89, 90]
+3×4 Matrix:
+  [12, 21, 23, 33]
+  [34, 44, 45, 56]
+  [67, 78, 89, 90]
+
+REAL-WORLD USE:
+Image processing, data restructuring, matrix operations
+
+================================================================================
+
+WEEK 4 - QUESTION 4: MATRIX OPERATIONS
+================================================================================
+WHAT THIS CODE DOES:
+Takes TWO MATRICES and performs:
+1. ADDITION (matrix + matrix)
+2. SUBTRACTION (matrix - matrix)
+3. MULTIPLICATION (matrix × matrix)
+
+With VALIDATION to check if operations are possible.
+
+PURPOSE:
+- Learn matrix math
+- Learn dimension checking
+- Learn NumPy matrix operations
+- Understand linear algebra basics
+
+HOW IT WORKS:
+1. Get dimensions for matrix 1
+2. Get elements for matrix 1
+3. Get dimensions for matrix 2
+4. Get elements for matrix 2
+5. Validate:
+   - Addition/Subtraction: must be same size
+   - Multiplication: cols of A must = rows of B
+6. Perform allowed operations
+7. Display results
+
+EXAMPLE:
+Matrix A (2×2): [[1, 2], [3, 4]]
+Matrix B (2×2): [[5, 6], [7, 8]]
+A+B: [[6, 8], [10, 12]]
+A-B: [[-4, -4], [-4, -4]]
+A×B: [[19, 22], [43, 50]]
+
+REAL-WORLD USE:
+Engineering, physics, computer graphics, scientific computing
+
+================================================================================
+
+WEEK 4 - QUESTION 5: HEALTH DATA PLOTS
+================================================================================
+WHAT THIS CODE DOES:
+Creates SCATTER PLOTS from health data showing:
+1. Weight vs Height
+2. Age vs Weight
+3. Height vs Age
+4. Gender vs Height
+5. Gender vs Weight
+
+PURPOSE:
+- Learn Pandas for data handling
+- Learn Matplotlib for plotting
+- Learn data visualization
+- Understand relationships in data
+
+HOW IT WORKS:
+1. Load health data from CSV
+2. Create 5 different scatter plots
+3. Save plots as image
+4. Display results
+
+EXAMPLE:
+Shows 5 graphs displaying relationships between health metrics
+
+REAL-WORLD USE:
+Medical analysis, health apps, epidemiology, data visualization
+
+================================================================================
+
+WEEK 4 - QUESTION 6: BMI & HEALTH STATUS
+================================================================================
+WHAT THIS CODE DOES:
+Reads health data and:
+1. CALCULATES BMI for each person
+2. ASSIGNS health status based on BMI:
+   - BMI < 18.5: Underweight
+   - 18.5 to 24.9: Healthy range
+   - 25 to 29.9: Overweight risk
+   - 30 to 34.9: High risk
+   - ≥ 40: Critical
+
+PURPOSE:
+- Learn Pandas data manipulation
+- Learn conditional logic with data
+- Learn health metrics
+- Understand data analysis
+
+HOW IT WORKS:
+1. Load health data
+2. Calculate BMI = Weight / Height
+3. Apply health status rules
+4. Add both as new columns
+5. Display results with statistics
+
+EXAMPLE:
+Weight: 70, Height: 170
+BMI: 70/170 = 0.41
+Status: Check BMI and assign status
+
+REAL-WORLD USE:
+Health apps, medical software, fitness trackers, health monitoring
+
+================================================================================
+                            END OF GUIDE
+================================================================================
+
+SUMMARY:
+Week 1: Basic programming (input, operators, conditions, loops)
+Week 2: Functions (modular code, reusability)
+Week 3: File handling & OOP (persistence, classes, systems)
+Week 4: Data science (NumPy, Pandas, visualization)
+
+Each program teaches important concepts and builds on previous knowledge!
